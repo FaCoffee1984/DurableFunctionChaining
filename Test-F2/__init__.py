@@ -27,6 +27,6 @@ def main(F1activitytrigger, inputDocument: func.DocumentList) -> str:
 
     result2 = inputDocument[0].data
 
-    result2['username'] = add_username() 
+    result2['username'] = add_username()
 
     return result2
