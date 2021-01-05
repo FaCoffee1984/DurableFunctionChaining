@@ -21,19 +21,3 @@ def orchestrator_function(context: df.DurableOrchestrationContext):
 
 main = df.Orchestrator.create(orchestrator_function)
 
-'''
-def orchestrator_function(context: df.DurableOrchestrationContext, f: str):
-
-    result = yield context.call_activity(f)
-
-    return result
-
-def main():
-
-    result1 = df.Orchestrator.create(orchestrator_function('Test-F1', None))
-
-    result2 = df.Orchestrator.create(orchestrator_function('Test-F2', None))
-
-    result3 = df.Orchestrator.create(orchestrator_function('Test-F1', result2))
-'''
-
