@@ -13,8 +13,8 @@ from azure.cosmos import CosmosClient
 def add_username(string=None):
     '''Generate username'''
 
-    name = "Francesco"
-    surname = "Castellani"
+    name = "Michael"
+    surname = "Jackson"
     username = name+" "+surname
 
     return username
