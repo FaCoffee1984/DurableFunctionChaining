@@ -1,0 +1,11 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "ppptestcosmosdb_DOCUMENTDB": "AccountEndpoint=https://ppp-test-cosmos-db.documents.azure.com:443/;AccountKey=JH2JtGl3Jl4XtEdx9Ctp1tjqOAu1ustef5IIJOL58vPecC5yw4jm9fkMKfYA9VEMq36eO785L531tEFmwmRLaQ==;",
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=pppteststorage;AccountKey=95XCiGg3JkDi07aEqXzteVPTVTVw+vAojNyQ0RymoHaYKj5x44+ZKxscrFqBShCvdJ08DCOZwIoBibOAbshALA==;EndpointSuffix=core.windows.net",
+    "AzureWebJobs.Hello.Disabled": "true",
+    "AzureWebJobs.DurableFunctionsOrchestrator.Disabled": "true",
+    "AzureWebJobs.DurableFunctionsHttpStart.Disabled": "true"
+  }
+}
