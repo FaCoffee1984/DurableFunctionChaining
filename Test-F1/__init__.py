@@ -42,4 +42,4 @@ def main(orchestratorActivityTrigger, outputDocument: func.Out[func.Document]) -
 
     outputDocument.set(func.Document.from_dict(result1))
 
-    return
+    return ""

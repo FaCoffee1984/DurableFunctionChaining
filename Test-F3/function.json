@@ -15,11 +15,6 @@
       "createIfNotExists": "true",
       "connectionStringSetting": "ppptestcosmosdb_DOCUMENTDB",
       "partitionKey": "id"
-    },
-    {
-      "type": "orchestrationClient",
-      "direction": "in",
-      "name": "orchestrationResult2"
     }
   ]
 }

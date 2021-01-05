@@ -20,12 +20,12 @@ def add_date(string=None):
     return today
 
 
-def main(F2activitytrigger, orchestrationResult2, outputDocument: func.Out[func.Document]) -> str:
+def main(F2activitytrigger, outputDocument: func.Out[func.Document]) -> str:
 
-    result3 = orchestrationResult2.copy()
+    result3 = F2activitytrigger.copy()
 
     result3['timestamp'] = add_date()
 
     outputDocument.set(func.Document.from_dict(result3))
 
-    return
+    return ""

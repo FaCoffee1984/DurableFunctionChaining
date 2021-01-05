@@ -13,7 +13,7 @@ def orchestrator_function(context: df.DurableOrchestrationContext):
     yield context.call_activity('Test-F1')
     result2 = yield context.call_activity('Test-F2')
     yield context.call_activity('Test-F3', result2)
-    
+    return
 
 main = df.Orchestrator.create(orchestrator_function)
 
