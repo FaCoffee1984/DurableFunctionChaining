@@ -1,0 +1,20 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "name": "F1activitytrigger",
+      "type": "activityTrigger",
+      "direction": "in"
+    },
+    {
+      "type": "cosmosDB",
+      "direction": "in",
+      "name": "inputDocument",
+      "databaseName": "test-cosmos-db-ppp",
+      "collectionName": "Container3",
+      "createIfNotExists": "true",
+      "connectionStringSetting": "ppptestcosmosdb_DOCUMENTDB",
+      "partitionKey": "id"
+    }
+  ]
+}
