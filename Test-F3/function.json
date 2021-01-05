@@ -1,0 +1,25 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "name": "F2activitytrigger",
+      "type": "activityTrigger",
+      "direction": "in"
+    },
+    {
+      "type": "cosmosDB",
+      "direction": "out",
+      "name": "outputDocument",
+      "databaseName": "test-cosmos-db-ppp",
+      "collectionName": "Container4",
+      "createIfNotExists": "true",
+      "connectionStringSetting": "ppptestcosmosdb_DOCUMENTDB",
+      "partitionKey": "id"
+    },
+    {
+      "type": "orchestrationClient",
+      "direction": "in",
+      "name": "orchestrationResult2"
+    }
+  ]
+}
